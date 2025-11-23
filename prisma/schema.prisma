@@ -3,9 +3,8 @@ generator client {
   binaryTargets = ["native", "debian-openssl-3.0.x"]
 }
 
-
 datasource db {
-  provider = "sqlite"
+  provider = "sqlite"          // or "postgresql" if you changed it
   url      = env("DATABASE_URL")
 }
 

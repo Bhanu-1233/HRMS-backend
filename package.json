@@ -2,12 +2,14 @@
   "name": "hrms-backend",
   "version": "1.0.0",
   "main": "src/server.js",
-  "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
-    "prisma:migrate": "npx prisma migrate dev --name init",
-    "prisma:generate": "npx prisma generate"
-  },
+ "scripts": {
+  "dev": "nodemon src/server.js",
+  "start": "node src/server.js",
+  "prisma:migrate": "npx prisma migrate dev --name init",
+  "prisma:generate": "npx prisma generate",
+  "postinstall": "npx prisma generate"
+}
+,
   "dependencies": {
     "@prisma/client": "^6.0.0",
     "bcryptjs": "^2.4.3",
