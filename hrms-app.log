@@ -58,3 +58,10 @@ Please make sure your database server is running at `localhost:5432`.
 2025-11-23T08:14:22.014Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 1 updated
 2025-11-23T08:14:22.060Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 1 assigned to teams [2]
 2025-11-23T08:15:05.535Z [INFO] [AUDIT] USER_LOGIN - User jayajayaanth@gmail.com logged in
+2025-11-23T08:50:17.813Z [INFO] HRMS backend listening on port 4000
+2025-11-23T08:52:18.532Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 1 updated
+2025-11-23T08:52:18.608Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 1 assigned to teams [1]
+2025-11-23T08:55:22.246Z [INFO] HRMS backend listening on port 4000
+2025-11-23T08:57:11.951Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 1 updated
+2025-11-23T08:57:12.005Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 1 assigned to teams [2]
+2025-11-23T08:57:35.308Z [INFO] [AUDIT] USER_LOGIN - User jayajayaanth@gmail.com logged in
