@@ -1,0 +1,60 @@
+2025-11-23T07:01:36.273Z [INFO] HRMS backend listening on port 4000
+2025-11-23T07:07:17.451Z [ERROR] PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Projects\Human-Resource-Management-System\backend\src\modules\auth\auth.controller.js:14:40
+
+  11   return res.status(400).json({ message: 'Missing required fields' });
+  12 }
+  13 
+→ 14 const existing = await prisma.user.findUnique(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:121:7568)
+    at ei.handleAndLogRequestError (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:121:6593)
+    at ei.request (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:121:6300)
+    at async a (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:130:9551)
+    at async registerOrg (C:\Projects\Human-Resource-Management-System\backend\src\modules\auth\auth.controller.js:14:22)
+2025-11-23T07:07:17.463Z [ERROR] PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Projects\Human-Resource-Management-System\backend\src\modules\auth\auth.controller.js:14:40
+
+  11   return res.status(400).json({ message: 'Missing required fields' });
+  12 }
+  13 
+→ 14 const existing = await prisma.user.findUnique(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:121:7568)
+    at ei.handleAndLogRequestError (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:121:6593)
+    at ei.request (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:121:6300)
+    at async a (C:\Projects\Human-Resource-Management-System\backend\node_modules\@prisma\client\runtime\library.js:130:9551)
+    at async registerOrg (C:\Projects\Human-Resource-Management-System\backend\src\modules\auth\auth.controller.js:14:22)
+2025-11-23T08:05:54.245Z [INFO] HRMS backend listening on port 4000
+2025-11-23T08:06:45.844Z [INFO] [AUDIT] ORG_REGISTER - Organization "Capgemini" registered with admin jayajayaanth@gmail.com
+2025-11-23T08:07:23.217Z [INFO] [AUDIT] EMPLOYEE_CREATE - Employee Shailaja MAGANTI created
+2025-11-23T08:07:23.275Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 1 assigned to teams []
+2025-11-23T08:07:32.511Z [INFO] [AUDIT] EMPLOYEE_CREATE - Employee Shailaja MAGANTI created
+2025-11-23T08:07:32.553Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 2 assigned to teams []
+2025-11-23T08:08:15.595Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 2 updated
+2025-11-23T08:08:15.634Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 2 assigned to teams []
+2025-11-23T08:08:54.738Z [INFO] [AUDIT] EMPLOYEE_CREATE - Employee Prabhas Madipadiga created
+2025-11-23T08:08:54.781Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 3 assigned to teams []
+2025-11-23T08:09:02.647Z [INFO] [AUDIT] EMPLOYEE_CREATE - Employee Prabhas Madipadiga created
+2025-11-23T08:09:02.687Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 4 assigned to teams []
+2025-11-23T08:09:52.874Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 4 updated
+2025-11-23T08:09:52.912Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 4 assigned to teams []
+2025-11-23T08:11:06.371Z [INFO] [AUDIT] TEAM_CREATE - Team "Developer" created
+2025-11-23T08:11:11.276Z [INFO] [AUDIT] TEAM_CREATE - Team "Developer" created
+2025-11-23T08:11:59.766Z [INFO] [AUDIT] TEAM_UPDATE - Team 2 updated
+2025-11-23T08:12:55.200Z [INFO] [AUDIT] EMPLOYEE_DELETE - Employee 4 deleted
+2025-11-23T08:13:40.826Z [INFO] [AUDIT] EMPLOYEE_CREATE - Employee Ananya Nampally created
+2025-11-23T08:13:40.935Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 5 assigned to teams [1]
+2025-11-23T08:14:02.544Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 3 updated
+2025-11-23T08:14:02.591Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 3 assigned to teams [2]
+2025-11-23T08:14:14.493Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 2 updated
+2025-11-23T08:14:14.536Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 2 assigned to teams [1]
+2025-11-23T08:14:22.014Z [INFO] [AUDIT] EMPLOYEE_UPDATE - Employee 1 updated
+2025-11-23T08:14:22.060Z [INFO] [AUDIT] EMPLOYEE_TEAM_ASSIGN - Employee 1 assigned to teams [2]
+2025-11-23T08:15:05.535Z [INFO] [AUDIT] USER_LOGIN - User jayajayaanth@gmail.com logged in
