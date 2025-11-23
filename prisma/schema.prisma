@@ -4,9 +4,10 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"          // or "postgresql" if you changed it
+  provider = "sqlite"      // or "postgresql" if you switched
   url      = env("DATABASE_URL")
 }
+
 
 model Organization {
   id        Int       @id @default(autoincrement())
